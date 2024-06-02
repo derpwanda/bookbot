@@ -4,7 +4,6 @@ def main():
     word_count = get_word_count(book_text)
     character_dict = character_counter(book_text)
     dict_list = dictionary_list(character_dict)
-    sorted_list = dictionary_list(character_dict)
     final_report = print_report(book_location, word_count, dict_list)
 
 
